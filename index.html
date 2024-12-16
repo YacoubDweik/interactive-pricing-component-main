@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="container__header">
+        <h1 class="header__title">Simple, traffic-based pricing</h1>
+        <p class="header__text">
+          Sign-up for our 30-day trial.
+          <span>No credit card required.</span>
+        </p>
+      </div>
+      <div class="container__body">
+        <div class="body__wrapper top">
+          <span class="body__views">100K Pageviews</span>
+          <div class="body__range">
+            <div class="range">
+              <span class="slider">
+                <img src="./images/icon-slider.svg" alt="slider" />
+              </span>
+            </div>
+            <input type="range" min="1" max="32" value="16" name="hidden" id="hidden" />
+          </div>
+          <span class="body__pricing">
+            <span class="price">$16.00</span>
+            <span class="smaller">/ month</span>
+          </span>
+          <div class="body__billing">
+            <span class="monthly">Monthly Billing</span>
+            <span class="toggle"></span>
+            <span class="yearly">Yearly Billing</span>
+          </div>
+        </div>
+        <div class="body__wrapper bottom">
+          <ul class="body__features">
+            <li class="feature">
+              <img src="./images/icon-check.svg" alt="checkmark" />
+              Unlimited websites
+            </li>
+            <li class="feature">
+              <img src="./images/icon-check.svg" alt="checkmark" />
+              100% data ownership
+            </li>
+            <li class="feature">
+              <img src="./images/icon-check.svg" alt="checkmark" />
+              Email reports
+            </li>
+          </ul>
+          <button class="body__button">Start my trial</button>
+        </div>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
