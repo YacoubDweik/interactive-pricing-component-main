@@ -25,7 +25,6 @@
   --md: 1rem;
   --la: 2rem;
   --xl: 2.5rem;
-  /* Font size (Introductory Paragraph): 15px */
 }
 
 html {
@@ -266,6 +265,9 @@ input[type="range"]#hidden {
 }
 
 @media (min-width: 950px) {
+  .header__text {
+    flex-direction: row;
+  }
   .body__wrapper {
     flex-direction: row;
     flex-wrap: wrap;
