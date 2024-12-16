@@ -273,10 +273,11 @@ input[type="range"]#hidden {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   .body__views {
     order: 1;
-    width: 50%;
+    width: fit-content;
   }
   .body__pricing {
     order: 2;
@@ -289,9 +290,6 @@ input[type="range"]#hidden {
   .body__billing {
     order: 4;
     width: 100%;
-  }
-  .body__wrapper.bottom {
-    align-items: center;
   }
   .yearly::after {
     content: "-25% discount";
